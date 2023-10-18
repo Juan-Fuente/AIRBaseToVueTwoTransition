@@ -1,0 +1,11 @@
+{
+  "name": "Dev_AIRBase",
+  "version": "0.0.1",
+  "description": "Merging to Vue2",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
