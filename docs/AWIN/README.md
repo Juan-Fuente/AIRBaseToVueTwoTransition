@@ -25,11 +25,12 @@ AW's authentication service, Auth0, provides a number of mechanisms depending on
 
 This replaces the password in the login flow. The user account must already exist.
 
-#### Pre-condition 
+#### Pre-condition
 
 User must have already created a user account in [aviationweek.com](https://aviationweek.com), either by the user themselves on the MyAWIN page OR we bulk-upload a list that the customer provides.
 
-### OpenAthens 
+### OpenAthens
+
 [OpenAthens](https://openathens.net) is an identity service that streamlines the process for customers.
 
 #### Pre-conditions
@@ -53,7 +54,7 @@ Customer and Aviationweek exchange metadata URLs. Aviation Week sends customers 
 
 [EZProxy](https://www.oclc.org/en/ezproxy.html) is another identity service that streamlines the process for customers.
 
-#### Pre-condition 
+#### Pre-condition
 
 Customer licenses EZProxy, either as a cloud service or implements their own, as their IdP (identity provider).
 
@@ -79,7 +80,7 @@ All active sessions will automatically log out after fourteen days (20160 minute
 | Aviation Week & Space Technology     | X       | X          | X                   |                   |
 | AW&ST - MRO Edition / Inside MRO     | X       | X          | X                   |                   |
 | Aerospace Daily & Defense Report     | X       |            | X                   |                   |
-| Aviation Daily                       | X       | X          |                    |                   |
+| Aviation Daily                       | X       | X          |                     |                   |
 | Advanced Air Mobility Report         | X       |            |                     |                   |
 | SpeedNews                            | X       | X          |                     |                   |
 | The Weekly Of Business Aviation      | X       |            |                     | X                 |
@@ -157,96 +158,3 @@ AWIN's RSS feeds match AWIN subscriptions packages are now available to customer
 
 Typically, a customer can integrate the RSS into their own browser, their Portal/Intranet, into an RSS Reader App.
 (there are hundreds, Feedly is great) or into their CRM.
-
-<!-- ### Roles, Subscriptions & Bundled Groups
-
-Definitions:
-
-### Role
-Gives a user permission to view content from specific content sources and/or permission to access restricted pages (e.g., AWST or AWIN)
-
-### Subscription
-Paid or controlled access to all the content sources and data that are included with the subscription for a specified period (e.g., Aviation Week & Space Technology)
-
-## Bundled Products
-Paid access to a collection of subscriptions for a specified period (e.g., AWIN – Premium)
-
-# Important Notes:
-- A user can have any number of roles that unlock content, data and views.
-- A user can have multiple subscriptions.
-- A user can have multiple bundled products.
-- When a user has multiple AWIN bundled products there is a hierarchy that kicks in that gives them the highest-level access they can get based on the bundles in their account and selects the highest-level dashboard as their homepage.  For example, if a user has AWIN Premium, AWIN Military and Aviation Daily, they will get access to everything because of the AWIN Premium and will start at the AWIN Premium dashboard even though AWIN Military and Aviation Daily each have a dashboard.
-- When a user has multiple AWIN bundles it is often because of migrated roles from previous applications.
-- As an example of role assignment by subscription or bundle, a subscriber to AWIN Premium effectively gets all roles so nothing that is restricted by role will be inaccessible to them.  A subscriber to Aviation Week & Space Technology only gets the AWST role so they can see freemium content, and anything gated as Aviation Week & Space technology within the last year.
-- We have open ticket to consolidate AVC, AVW, AVZ and AST into AWST.
-
-### AWST
-This role represents digital access to Aviation Week & Space Technology articles published within the last 365 days (rolling).  It also includes access to the Aviation Week & Space Technology archive.
-
-### BCA
-This role represents digital access to Business & Commercial Aviation articles and the online edition published using Turtl.
-
-### DTE
-This is a legacy role that was previously a standalone subscription. 
-
-### MRO
-This is qualified access to Inside MRO digital content.     
-
-### STU
-This role represents digital access to Aviation Week & Space Technology for qualified students.   
-
-### ATW
-This is qualified access to Air Transport World digital content.
-
-### AST
-This is a legacy role that was primarily used for the AWST app that was retired.   
-
-### AVC
-This is a legacy role for AWST online access only. (ADVANTAGE)
-
-### AVW
-This is a legacy role for AWST print and online access.  (ADVANTAGE)
-
-### AVZ
-This is a legacy role for AWST online access only. (ADVANTAGE)
-
-### AWR
-This a legacy role for AWIN MRO.  
-
-### CJF
-This is a legacy role for Commercial Jet Fleet.
-
-### AWIN
-This is a special role that does the following:
-- 1. Triggers the white header AWIN experience
-- 2. Allows access to content and pages that are restricted to AWIN ONLY (e.g., dashboards, advanced search)
-
-### AWB
-This role represents AWIN – Business Aviation and includes content from BCA and The Weekly of Business Aviation.
-
-### AWC
-– this role represents AWIN – Commercial Aviation and includes content from Aviation Week & Space Technology and Aviation Daily.  It also includes access to the Aviation Week & Space Technology archive.
-
-### AWM
-This role represents AWIN – Military and includes content from Aviation Week & Space Technology and Aerospace Daily & Defense Report.  It also includes access to the Aviation Week & Space Technology archive.
-
-### AWN
-This role represents our highest-level access, AWIN – Premium, and effectively includes all non-admin roles within the application.  It also includes access to the Aviation Week & Space Technology archive.
-
-### ATW Plus
-This is a legacy role that was previously a standalone subscription.  Any content that was restricted to this role is accessible to AWIN Premium, Boeing AWIN – Premium, AWIN – Commercial and AWIN – Civil only.       
-
-### MRP
-This is a legacy role that was previously a standalone subscription.  Any content that was restricted to this role is accessible to AWIN Premium, Boeing AWIN – Premium, AWIN – Commercial and AWIN – Civil only.     
-
-### ASD
-This role represents a subscription to Aerospace Daily & Defense Report. 
-
-### AVD
-This role represents a subscription to Aviation Daily.
-
-### BAV
-This role represents a subscription to The Weekly of Business Aviation.
-
-### SPNX
-This role represents a subscription to SpeedNews. -->
